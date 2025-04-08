@@ -31,7 +31,7 @@ void draw(){
   
   //sun
   fill(240,201,2);
-  sun(100,100);
+
   angle=angle+0.1;
   
 
@@ -82,13 +82,3 @@ if(z<-750){
   z=250;
 }
 } 
-
-void sun(int x, int y) {
-    fill(240,201,2);
-    pushMatrix();
-    translate(x,y);
-    rotate(angle);
-    ellipse(800,0,200,200);
-    popMatrix();
-  }
- 
